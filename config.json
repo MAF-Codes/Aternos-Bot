@@ -1,9 +1,9 @@
 {
-	"ip":"vanevo.aternos.me",
-	"port": "25143",
-	"name": "SpidermanNo",
-	"auto-night-skip":"false",
-	"login-enabled":"false",
-	"register-cmd":"/register pass123 ",
+	"ip":"your ip server",
+	"port": "your port server",
+	"name": "bot name",
+	"auto-night-skip":"false", #enable if you want auto night skip
+	"login-enabled":"false", #enable if you have login system
+	"register-cmd":"/register pass123 ", 
 	"login-cmd":"/login pass123 "
 }
