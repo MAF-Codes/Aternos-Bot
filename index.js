@@ -30,7 +30,7 @@ bot.loadPlugin(cmd)
 
 
 bot.on('login',function(){
-	console.log("Mencoba Login")
+	console.log("Trying to log in")
 	if(data["login-enabled"] == "true"){
 		bot.chat(data["register-cmd"])
 		bot.chat(data["login-cmd"])
@@ -38,19 +38,19 @@ bot.on('login',function(){
 	for (let i=0; i<10; i++) { 
 	   task(i); 
 	} 
-	console.log("Sukses Login")
-	bot.chat("Halo semua");
+	console.log("Login Success")
+	bot.chat("Hello Guys");
 });
   
 function task(i) { 
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("Diperbarui oleh vanevgt")
+	bot.chat("Updated by MAFDevs")
 	first = false;
 	}
 	else{
-		bot.chat("Diperbarui oleh vanevgt")
+		bot.chat("Updated by MAFDevs")
 		first = true;
 	}
   }, 3600000 * i); 
