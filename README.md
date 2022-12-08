@@ -1,4 +1,4 @@
-#Aternos Bot
+# Aternos Bot
 
 make your aternos server always online
 
