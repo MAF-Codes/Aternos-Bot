@@ -27,8 +27,6 @@ function getRandomArbitrary(min, max) {
 
 bot.loadPlugin(cmd)
 
-
-
 bot.on('login',function(){
 	console.log("Trying to log in")
 	if(data["login-enabled"] == "true"){
